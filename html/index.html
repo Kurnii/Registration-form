@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<title>Registration form</title>
+</head>
+<body>
+
+	<header>
+		<h2 class="logo">Logotype</h2>
+		<nav class="navigation">
+			<a href="">Home</a>
+			<a href="">Services</a>
+			<a href="">About Us</a>
+			<a href="">Contact</a>
+			<button class="btnlogin-popup">Sing in</button> 
+		</nav>
+	</header>
+
+	<div class="wrapper">
+		<span class="close"><ion-icon name="close-outline"></ion-icon></span>
+		<div class="form-box login">
+			<h2>Sing in</h2>
+			<form action="#">
+				<div class="input-box">
+					<span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+					<input type="email" required name="">
+					<label>Email</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+					<input type="password" required name="">
+					<label>Password</label>
+				</div>
+				<div class="remember-forgot">
+					<label><input type="checkbox" name="">Remember me</label>
+					<a href="">Forgot password?</a>
+				</div> 
+				<button type="submit" class="btn">Sing in	</button>
+				<div class="login-register">
+					<p>Dont have an account?<a href="#" class="register-link">Register</a></p>
+				</div>
+			</form>
+		</div>
+
+		<div class="form-box register">
+			<h2>Sing up</h2>
+			<form action="#">
+				<div class="input-box">
+					<span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+					<input type="text" required name="">
+					<label>Username</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+					<input type="email" required name="">
+					<label>Email</label>
+				</div>
+				<div class="input-box">
+					<span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+					<input type="password" required name="">
+					<label>Password</label>
+				</div>
+				<div class="remember-forgot">
+					<label><input type="checkbox" name="">I agree with terms</label>
+				</div> 
+				<button type="submit" class="btn">Sing up</button>
+				<div class="login-register">
+					<p>Do you have an account??<a href="#" class="login-link">Sing in</a></p>
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="../js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>
